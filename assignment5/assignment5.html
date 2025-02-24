@@ -7779,6 +7779,7 @@ Print your name below
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Write your answer</span>
 <span class="n">list_filenames</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">"flight_data"</span><span class="p">)</span> <span class="c1"># os.listdir() will give a list of file names in the WD. </span>
+<span class="nb">print</span><span class="p">(</span><span class="n">list_filenames</span><span class="p">)</span>
 <span class="n">list_csv_files</span><span class="o">=</span><span class="p">[]</span>
 
 <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">list_filenames</span><span class="p">:</span>
@@ -7800,7 +7801,8 @@ Print your name below
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>april_flights.csv does not begin with m
+<pre>['april_flights.csv', 'may_flights.csv', 'march_flights.csv']
+april_flights.csv does not begin with m
 ['may_flights.csv', 'march_flights.csv']
 </pre>
 </div>
